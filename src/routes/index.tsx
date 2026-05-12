@@ -341,7 +341,7 @@ function Footer() {
     <footer className="border-t border-border/60 bg-secondary/30">
       <div className="mx-auto max-w-6xl px-6 py-14 flex flex-col md:flex-row gap-8 md:items-center md:justify-between">
         <div className="max-w-md">
-          <img src={logo} alt="MEDURA" className="h-10 w-auto" />
+          <img src={logo} alt="MEDURA" className="h-16 w-auto" />
           <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
             Reimagining surgical care through sustainable biomaterials.
           </p>

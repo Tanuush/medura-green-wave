@@ -142,23 +142,11 @@ function Solution() {
           </p>
         </div>
         <div className="fade-in-section">
-          <div
-            className="relative rounded-2xl p-6 md:p-10"
-            style={{
-              background:
-                "radial-gradient(80% 80% at 50% 50%, color-mix(in oklab, var(--background) 100%, transparent) 0%, color-mix(in oklab, var(--secondary) 60%, transparent) 100%)",
-            }}
-          >
+          <div className="relative rounded-2xl p-6 md:p-10 bg-card/50">
             <img
               src={layers}
               alt="MEDURA proprietary multi-layer biomaterial architecture"
-              className="w-full h-auto mix-blend-multiply"
-              style={{
-                maskImage:
-                  "radial-gradient(closest-side, black 70%, transparent 100%)",
-                WebkitMaskImage:
-                  "radial-gradient(closest-side, black 70%, transparent 100%)",
-              }}
+              className="w-full h-auto"
             />
           </div>
           <p className="mt-4 text-sm italic text-muted-foreground text-center">

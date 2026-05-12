@@ -48,9 +48,9 @@ function Index() {
 function Nav() {
   return (
     <header className="sticky top-0 z-40 backdrop-blur-md bg-background/75 border-b border-border/60">
-      <div className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
+      <div className="mx-auto max-w-6xl px-6 h-20 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2">
-          <img src={logo} alt="MEDURA" className="h-9 w-auto" />
+          <img src={logo} alt="MEDURA" className="h-14 md:h-16 w-auto" />
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
           <a href="#problem" className="hover:text-foreground transition">Problem</a>

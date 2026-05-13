@@ -355,33 +355,41 @@ function Contact() {
 function Footer() {
   return (
     <footer className="border-t border-border/60 bg-secondary/30">
-      <div className="mx-auto max-w-6xl px-6 py-14 flex flex-col md:flex-row gap-8 md:items-center md:justify-between">
-        <div className="max-w-md">
-          <img src={logo} alt="MEDURA" className="h-16 w-auto" />
-          <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-            Reimagining surgical care through sustainable biomaterials.
-          </p>
+      <div className="mx-auto max-w-6xl px-6 pt-20 pb-10 flex flex-col items-center text-center gap-6">
+        <div className="flex items-center gap-3">
+          <img src={logo} alt="MEDURA" className="h-14 w-auto" />
+          <span className="font-dm-sans font-bold text-[20px] md:text-[22px]" style={{ color: "#1C1C1C", letterSpacing: "2.5px" }}>
+            MEDURA
+          </span>
         </div>
-        <div className="flex flex-col md:items-end gap-3 text-sm text-muted-foreground">
+        <p className="max-w-md text-sm text-muted-foreground leading-relaxed">
+          Reimagining surgical care through sustainable biomaterials.
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
           <a
             href="https://www.linkedin.com/company/medura"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 hover:text-foreground transition"
           >
-            <Linkedin className="h-4 w-4" /> LinkedIn
+            <Linkedin className="h-4 w-4" />
+            <span>LinkedIn</span>
           </a>
           <a
             href="mailto:hello@medura.ie"
             className="inline-flex items-center gap-2 hover:text-foreground transition"
           >
-            <Mail className="h-4 w-4" /> hello@medura.ie
+            <Mail className="h-4 w-4" />
+            <span>hello@medura.ie</span>
           </a>
           <span>medura.ie</span>
         </div>
       </div>
-      <div className="border-t border-border/60 py-5 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} MEDURA. All rights reserved.
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="border-t border-border/60" />
+        <div className="py-8 text-center text-xs text-muted-foreground">
+          © {new Date().getFullYear()} MEDURA. All rights reserved.
+        </div>
       </div>
     </footer>
   );

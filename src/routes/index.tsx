@@ -25,8 +25,8 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const FORMSPREE_WAITLIST = "https://formspree.io/f/xpwagqkd";
-const FORMSPREE_CONTACT = "https://formspree.io/f/xpwagqkd";
+const FORMSPREE_WAITLIST = "https://formspree.io/f/xkoyelob";
+const FORMSPREE_CONTACT = "https://formspree.io/f/xrejdwey";
 
 function Index() {
   useFadeIn();
@@ -49,8 +49,11 @@ function Nav() {
   return (
     <header className="sticky top-0 z-40 backdrop-blur-md bg-background/75 border-b border-border/60">
       <div className="mx-auto max-w-6xl px-6 h-20 flex items-center justify-between">
-        <a href="#top" className="flex items-center gap-2">
-          <img src={logo} alt="MEDURA" className="h-14 md:h-16 w-auto" />
+        <a href="#top" className="flex items-center gap-3">
+          <img src={logo} alt="" className="h-12 md:h-[52px] w-auto bg-transparent" />
+          <span className="font-semibold tracking-tight text-[20px] md:text-[22px]" style={{ color: "#1C1C1C" }}>
+            MEDURA
+          </span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
           <a href="#problem" className="hover:text-foreground transition">Problem</a>
@@ -160,9 +163,22 @@ function Solution() {
 
 function WhyNow() {
   const cards = [
-    { icon: TrendingUp, stat: "$12B+", label: "global surgical drapes market" },
-    { icon: ShieldCheck, stat: "Regulation", label: "growing pressure on medical waste" },
-    { icon: Recycle, stat: "Mature", label: "biodegradable materials science ready to deliver" },
+    {
+      icon: TrendingUp,
+      stat: "$12B+ Market",
+      label: "The global surgical drapes industry is large, growing, and ripe for disruption.",
+    },
+    {
+      icon: ShieldCheck,
+      stat: "Tightening Regulations",
+      label: "Governments worldwide are mandating reduction of single-use medical waste.",
+    },
+    {
+      icon: Recycle,
+      stat: "The Science is Ready",
+      label:
+        "Biodegradable biomaterials have reached the performance levels surgical care demands.",
+    },
   ];
   return (
     <section id="why-now" className="py-24 md:py-32">

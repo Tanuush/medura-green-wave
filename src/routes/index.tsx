@@ -51,7 +51,7 @@ function Nav() {
       <div className="mx-auto max-w-6xl px-6 h-20 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
           <img src={logo} alt="" className="h-12 md:h-[52px] w-auto bg-transparent" />
-          <span className="font-semibold tracking-tight text-[20px] md:text-[22px]" style={{ color: "#1C1C1C" }}>
+          <span className="font-dm-sans font-bold text-[20px] md:text-[22px]" style={{ color: "#1C1C1C", letterSpacing: "2.5px" }}>
             MEDURA
           </span>
         </a>

@@ -365,7 +365,8 @@ function Footer() {
         <p className="max-w-md text-sm text-muted-foreground leading-relaxed">
           Reimagining surgical care through sustainable biomaterials.
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-muted-foreground">
+        <div className="grid w-full max-w-md grid-cols-3 items-center text-sm text-muted-foreground">
+          <div className="flex justify-center">
           <a
             href="https://www.linkedin.com/company/medura-ie/"
             target="_blank"

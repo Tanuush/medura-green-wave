@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Medura" },
+      { name: "description", content: "MEDURA's website showcases biodegradable biomaterials for surgical wraps, blending science and sustainability." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Medura" },
+      { property: "og:description", content: "MEDURA's website showcases biodegradable biomaterials for surgical wraps, blending science and sustainability." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Medura" },
+      { name: "twitter:description", content: "MEDURA's website showcases biodegradable biomaterials for surgical wraps, blending science and sustainability." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/70ecc9b8-15a5-45ef-9add-4576e7d2561d/id-preview-47814c5b--6964d5da-18d4-40de-9f07-2ddc102c1a90.lovable.app-1778784437087.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/70ecc9b8-15a5-45ef-9add-4576e7d2561d/id-preview-47814c5b--6964d5da-18d4-40de-9f07-2ddc102c1a90.lovable.app-1778784437087.png" },
     ],
     links: [
       {

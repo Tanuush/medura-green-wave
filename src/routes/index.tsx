@@ -376,6 +376,8 @@ function Footer() {
             <Linkedin className="h-4 w-4" />
             <span>LinkedIn</span>
           </a>
+          </div>
+          <div className="flex justify-center">
           <a
             href="mailto:hello@medura.ie"
             className="inline-flex items-center gap-2 hover:text-foreground transition"
@@ -383,6 +385,8 @@ function Footer() {
             <Mail className="h-4 w-4" />
             <span>hello@medura.ie</span>
           </a>
+          </div>
+          <div className="flex justify-center">
           <a
             href="https://medura.ie"
             target="_blank"
@@ -392,6 +396,7 @@ function Footer() {
             <Globe className="h-4 w-4" />
             <span>medura.ie</span>
           </a>
+          </div>
         </div>
       </div>
       <div className="mx-auto max-w-6xl px-6">

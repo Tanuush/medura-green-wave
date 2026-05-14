@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState, type FormEvent } from "react";
-import { Leaf, Recycle, TrendingUp, ShieldCheck, Linkedin, Mail, Award, ArrowRight } from "lucide-react";
+import { Leaf, Recycle, TrendingUp, ShieldCheck, Linkedin, Mail, Award, ArrowRight, Globe } from "lucide-react";
 import logo from "@/assets/medura-logo.png";
 import layers from "@/assets/biomaterial-layers.png";
 import { useFadeIn } from "@/hooks/use-fade-in";

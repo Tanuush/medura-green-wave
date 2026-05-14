@@ -356,16 +356,16 @@ function Footer() {
   return (
     <footer className="border-t border-border/60 bg-secondary/30">
       <div className="mx-auto max-w-6xl px-6 pt-20 pb-10 flex flex-col items-center text-center gap-6">
-        <div className="flex items-center gap-3">
-          <img src={logo} alt="MEDURA" className="h-14 w-auto" />
-          <span className="font-wordmark font-semibold text-[20px] md:text-[22px]" style={{ color: "#1C1C1C", letterSpacing: "1.5px" }}>
+        <div className="flex items-center gap-2.5">
+          <img src={logo} alt="MEDURA" className="h-12 w-auto" />
+          <span className="font-wordmark font-semibold text-[15px] md:text-[16px]" style={{ color: "#1C1C1C", letterSpacing: "1.5px" }}>
             MEDURA
           </span>
         </div>
         <p className="max-w-md text-sm text-muted-foreground leading-relaxed">
           Reimagining surgical care through sustainable biomaterials.
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
+        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-muted-foreground">
           <a
             href="https://www.linkedin.com/company/medura-ie/"
             target="_blank"
@@ -374,6 +374,22 @@ function Footer() {
           >
             <Linkedin className="h-4 w-4" />
             <span>LinkedIn</span>
+          </a>
+          <a
+            href="mailto:hello@medura.ie"
+            className="inline-flex items-center gap-2 hover:text-foreground transition"
+          >
+            <Mail className="h-4 w-4" />
+            <span>hello@medura.ie</span>
+          </a>
+          <a
+            href="https://medura.ie"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 hover:text-foreground transition"
+          >
+            <Globe className="h-4 w-4" />
+            <span>medura.ie</span>
           </a>
         </div>
       </div>

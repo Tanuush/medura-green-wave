@@ -358,7 +358,7 @@ function Footer() {
       <div className="mx-auto max-w-6xl px-6 pt-20 pb-10 flex flex-col items-center text-center gap-6">
         <div className="flex items-center gap-3">
           <img src={logo} alt="MEDURA" className="h-14 w-auto" />
-          <span className="font-dm-sans font-bold text-[20px] md:text-[22px]" style={{ color: "#1C1C1C", letterSpacing: "2.5px" }}>
+          <span className="font-wordmark font-semibold text-[20px] md:text-[22px]" style={{ color: "#1C1C1C", letterSpacing: "1.5px" }}>
             MEDURA
           </span>
         </div>
@@ -367,7 +367,7 @@ function Footer() {
         </p>
         <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
           <a
-            href="https://www.linkedin.com/company/medura"
+            href="https://www.linkedin.com/company/medura-ie/"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 hover:text-foreground transition"
@@ -375,14 +375,6 @@ function Footer() {
             <Linkedin className="h-4 w-4" />
             <span>LinkedIn</span>
           </a>
-          <a
-            href="mailto:hello@medura.ie"
-            className="inline-flex items-center gap-2 hover:text-foreground transition"
-          >
-            <Mail className="h-4 w-4" />
-            <span>hello@medura.ie</span>
-          </a>
-          <span>medura.ie</span>
         </div>
       </div>
       <div className="mx-auto max-w-6xl px-6">

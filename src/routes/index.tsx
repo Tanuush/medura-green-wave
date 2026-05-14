@@ -51,7 +51,7 @@ function Nav() {
       <div className="mx-auto max-w-6xl px-6 h-20 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
           <img src={logo} alt="" className="h-12 md:h-[52px] w-auto bg-transparent" />
-          <span className="font-wordmark font-semibold text-[20px] md:text-[22px]" style={{ color: "#1C1C1C", letterSpacing: "1.5px" }}>
+          <span className="font-wordmark font-semibold text-[15px] md:text-[16px]" style={{ color: "#1C1C1C", letterSpacing: "1.5px" }}>
             MEDURA
           </span>
         </a>
@@ -365,7 +365,8 @@ function Footer() {
         <p className="max-w-md text-sm text-muted-foreground leading-relaxed">
           Reimagining surgical care through sustainable biomaterials.
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-muted-foreground">
+        <div className="grid w-full max-w-md grid-cols-3 items-center text-sm text-muted-foreground">
+          <div className="flex justify-center">
           <a
             href="https://www.linkedin.com/company/medura-ie/"
             target="_blank"
@@ -375,6 +376,8 @@ function Footer() {
             <Linkedin className="h-4 w-4" />
             <span>LinkedIn</span>
           </a>
+          </div>
+          <div className="flex justify-center">
           <a
             href="mailto:hello@medura.ie"
             className="inline-flex items-center gap-2 hover:text-foreground transition"
@@ -382,6 +385,8 @@ function Footer() {
             <Mail className="h-4 w-4" />
             <span>hello@medura.ie</span>
           </a>
+          </div>
+          <div className="flex justify-center">
           <a
             href="https://medura.ie"
             target="_blank"
@@ -391,6 +396,7 @@ function Footer() {
             <Globe className="h-4 w-4" />
             <span>medura.ie</span>
           </a>
+          </div>
         </div>
       </div>
       <div className="mx-auto max-w-6xl px-6">
